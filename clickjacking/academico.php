@@ -1,0 +1,1 @@
+Hola <?php echo $_POST['txt_usr']; ?>, tu contrasena es: <?php echo $_POST['txt_pwd']; ?>.

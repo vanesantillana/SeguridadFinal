@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ClickJacking Mail</title>
+	<title>ClickJacking Academico</title>
 </head>
 <style type="text/css">
 	#outer{
 		position: absolute;
-		/*margin-top: 0px;
-		/*left: 100px;*/
 	}
 	#inner{
 		position: absolute;
@@ -82,4 +80,7 @@
 </div>
 
 </body>
+<script type="text/javascript">
+if (top !== self) top.location.replace(self.location.href);
+</script>
 </html>
