@@ -1,3 +1,4 @@
+<?php header("X-Frame-Options: DENY") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,14 +10,14 @@
 	}
 	#inner{
 		position: absolute;
-		margin-top: 277px;
+		margin-top: 272px;
 		left: 270px;
 		opacity: 1.0;
 	}
 </style>
 <body>
 
-<iframe id="outer" src="https://academico.ucsp.edu.pe/" width="100%" height="100%" frameborder="0"></iframe>
+<iframe id="outer" src="https://academico.ucsp.edu.pe/" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 
 
 <div id="inner">
@@ -36,7 +37,7 @@
             <td style="width: 13px" rowspan="8">
                 <img src="Imagenes/cab/lat6.jpg">
             </td>
-            <td style="width: 35px; height: 24px;">
+            <td style="width: 35px; height: 30px;">
             </td>
             <td style="width: 100px; height: 24px;">
                 <span id="lbl_usr" class="etiqueta3" style="display:inline-block;width:100px;"></span></td>
@@ -80,7 +81,9 @@
 </div>
 
 </body>
+<!--
 <script type="text/javascript">
 if (top !== self) top.location.replace(self.location.href);
 </script>
+-->
 </html>
